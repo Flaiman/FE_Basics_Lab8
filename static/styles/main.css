@@ -1,0 +1,358 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Roboto-Regular.ttf") format('opentype');
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(../images/image.png);
+    background-size: cover;
+    min-height: 1100px;
+    background-attachment: fixed;
+}
+.navbar-brand{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+.navbar-brand:hover{
+    color: gold;
+}
+.nav-item .nav-link{
+    font-size: 1.5rem;
+    color: white;
+}
+.nav-item:hover .nav-link:hover{
+    color: gold;
+    transition: 0s;
+}
+.navbar-toggler{
+    background-color: white;
+}
+span{
+    color: gold;
+}
+.bottom-header{
+    margin-top: 250px;
+}
+h1{
+    font-size: 6rem;
+}
+.bottom-header-text{
+    font-size: 1.5rem;
+}
+.bottom-header-btn{
+    margin: 0 10px 0 10px;
+    padding: 10px 40px 10px 40px;
+    font-size: 2rem;
+    width: auto;
+}
+.section{
+    color: white;
+}
+.section1{
+    margin-top: 75px;
+}
+.section1-text p{
+    font-size: 1.2rem;
+    margin-top: 30px;
+    padding-inline: 100px;
+}
+.bar{
+    width: 60px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #0d6efd;
+    padding: 10px;
+}
+.projects, .services{
+    margin-top: 200px;
+}
+.carouselbtn{
+    background-color: black;
+}
+.image-container{
+    display: flex;
+}
+.images{
+    width: 50%;
+    height: 400px;
+}
+.carousel-item {
+    position: relative;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 15%; 
+    left: 50%;
+    transform: translate(-50%, -20%);
+    color: #fff; 
+    text-align: center;
+}
+.overlay-content h1{
+    font-weight:bolder;
+}
+
+.overlay-image {
+    margin-top: 10px;
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%;
+}
+.carousel-caption{
+    position: absolute;
+    bottom: 10%;
+    background-color: rgba(255, 0, 255, 0.5);
+    border-radius: 20px;
+}
+
+.service-elements{
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+.latest_news{
+    background-color: #222f36;
+    color: white;
+    margin-bottom: 80px;
+}
+.section_text{
+    padding: 40px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.card_item{
+    width: 25%;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+.card_item:hover{
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+.card_img{
+    width: 100%;
+}
+.card_text{
+    color: black;
+    padding: 40px;
+    background-color: white;
+}
+.card_link{
+    text-decoration: none;
+    color: gold;
+}
+.card_footer{
+    position: relative;
+    background-image: url(../images/aerial-shot-mountains-blue-sky-white-clouds.jpg);
+    background-size: cover;
+    min-height: 150px;
+    background-attachment: fixed;
+    z-index: 1;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+.card_footer::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 215, 0, 0.5);
+    z-index: 2; 
+}
+.card_footer > * {
+    position: relative;
+    z-index: 3;
+}
+.card_footer_text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; 
+    height: 100%; 
+    font-size: 2rem;
+    font-weight: bold;
+}
+.card_footer_text p{
+    border: 2px solid white; padding-inline: 20px;
+}
+.team_text{
+    margin-bottom: 50px;
+}
+.team_item{
+    width: 33%;
+    display: flex;
+    padding: 25px;
+}
+.team_img{
+    width: 30%;
+    border-radius: 50%;
+}
+.team_container{
+    display: flex;
+    justify-content: space-around;
+}
+.team_item_text{
+    margin: 20px;
+}
+.team{
+    margin-bottom: 100px;
+}
+.contacts_text{
+    display: flex;
+    justify-content: space-around;
+}
+.contacts_item{
+    display: flex;
+    padding: 30px;
+}
+.contacts_item a{
+    margin: 20px;
+}
+.contacts_main{
+    margin-right: 50px;
+    border-right: 2px solid black;
+    padding: 20px;
+    color: rgb(255 193 7);
+    font-size: 20px;
+}
+.contacts_item a{
+    text-decoration: none;
+    color: black;
+}
+.contacts_item a:hover{
+    text-decoration: underline;
+}
+.footer{
+    background-color: #292825;
+    color: white;
+    padding-top: 50px;
+}
+.list-unstyled a{
+    text-decoration: none;
+    color:#8c979e;
+}
+.list-unstyled a:hover{
+    color: #337ab7;
+}
+.carousel_img{
+    background-image: url(../images/low_image.jpg);
+    background-size: cover;
+    min-height: 800px;
+    background-attachment: fixed;
+}
+.row{
+    gap: 50px;
+}
+@media (max-width: 768px){
+    .header{
+        width: 100%;
+        background-position: center;
+        background-attachment: initial;
+        min-height: 800px;
+    }
+    .section h1{
+        font-size: 2.9rem;
+        font-weight: bold;
+    }
+    .section .btn{
+        margin-bottom: 20px;
+    }
+    .section1 p{
+        padding: 0;
+    }
+    .section1 .row{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .image-container{
+        flex-direction: column;
+    }
+    .images{
+        width: 100%;
+        height: auto;
+    }
+    .services .row{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .contacts_text{
+        flex-direction: column;
+    }
+    .contacts_item{
+        display: block;
+    }
+    .card_item{
+        width: 85%;
+        margin-bottom: 40px;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .team_container{
+        flex-direction: column;
+    }
+    .team_item{
+        width: 100%;
+    }
+    .team_img{
+        width: 40%;
+    }
+    .overlay-content h1{
+        font-size: 4rem;
+    }
+    .card_footer_text{
+        flex-direction: column;
+    }
+    .card_footer_text p{
+        border: none;
+        padding: 20px;
+    }
+    .services{
+        margin-top: 75px;
+    }
+    .contacts_main{
+        border-right: none;
+        border-bottom: 2px solid black;
+        padding: 0;
+    }
+    .contacts_item a{
+        margin: 0;
+    }
+    .footer .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_item{
+        text-align: center;
+    }
+    .carousel_img{
+        width: 100%;
+        background-position: center;
+        background-attachment: initial;
+        min-height: 800px;
+    }
+    .carousel-caption{
+        right: 10px;
+        left: 10px;
+        border-radius: 40px;
+    }
+    .carousel-caption p{
+        padding: 25px;
+    }
+}
