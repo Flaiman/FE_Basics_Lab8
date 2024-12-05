@@ -356,3 +356,134 @@ h1{
         padding: 25px;
     }
 }
+@media screen and (min-width: 1300px) and (min-aspect-ratio: 21/9){
+    .header{
+        min-height: 1500px;
+    }
+    .navbar-brand{
+        font-size: 6rem;
+    }
+    .nav-item .nav-link{
+        font-size: 3rem;
+    }
+    .progress{
+        height: 2.5rem;
+        border-radius: 50px;
+    }
+    .bar{
+        font-size: 2.5rem;
+        width: 110px;
+        border-radius: 50px;
+    }
+    .section1 .row{
+        margin-top: 100px;
+    }
+    .section h1{
+        font-size: 10rem;
+    }
+    .bottom-header-text{
+        font-size: 3rem;
+    }
+    .bottom-header-btn{
+        font-size: 4rem;
+        margin: 100px;
+        border-radius: 25px;
+    }
+    .fs-1{
+        font-size: 5rem !important;
+    }
+    .section1-text p{
+        font-size: 3rem;
+    }
+    .section1.container{
+        max-width: 100%;
+        padding-inline: 3rem;
+    }
+    .projects p, .team_text p{
+        font-size: 3rem;
+    }
+    .images{
+        height: auto;
+    }
+    .carousel_img{
+        min-height: 1500px;
+    }
+    .overlay-content h1{
+        font-size: 8rem;
+    }
+    .overlay-image{
+        width: 300px;
+        height: 300px;
+    }
+    .carousel-caption p, h5{
+        font-size: 3rem;
+    }
+    .carousel-indicators [data-bs-target]{
+        width: 80px;
+        height: 10px;
+    }
+    .services p{
+        font-size: 3rem;
+    }
+    .services{
+        max-width: 100%;
+        padding-inline: 3rem;
+    }
+    .bi::before, [class*=" bi-"]::before{
+        font-size: 60px;
+    }
+    .services i p{
+        font-size: 4rem;
+    }
+    .latest_news h2{
+        font-size: 5rem;
+    }
+    .latest_news p, .team_item_text p{
+        font-size: 3rem;
+    }
+    .latest_news .btn{
+        font-size: 3rem;
+        border-radius: 20px;
+        padding-inline: 50px;
+    }
+    .section_text{
+        padding: 100px;
+    }
+    .card_link{
+        font-size: 3rem;
+    }
+    .card_text p{
+        margin-bottom: 50px;
+    }
+    .card_footer{
+        min-height: 300px;
+    }
+    .card_footer_text p{
+        font-size: 5rem;
+        border: 5px solid white;
+    }
+    .team_img{
+        width: 40%;
+    }
+    .team_item_text h3{
+        font-size: 4rem;
+    }
+    .team_item_text h5{
+        font-weight: bold;
+    }
+    .contacts_item, .contacts_main{
+        font-size: 3rem;
+    }
+    .footer_item h2{
+        font-size: 4rem;
+    }
+    .footer .row{
+        gap: 300px;
+    }
+    .list-unstyled a{
+        font-size: 2.5rem;
+    }
+    .section1 i{
+        font-size: 50px !important;
+    }
+}
